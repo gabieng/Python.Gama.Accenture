@@ -18,7 +18,6 @@ def add_caixinha():
             print("Esta caixinha já existe. Tente novamente.")
             continue
         break
-    
     while True:
         valor_caixinha = float(input("Digite o valor inicial da caixinha: "))
         if valor_caixinha < 0:
